@@ -18,4 +18,4 @@ for contador in range(1,11,2): # o 3ª parâmetro indica como os valores serão 
 print('-'*40)
 # 3ª forma de operação do for
 for contador in range(10,0,-1):
-    print(contador,end=' ') # a função end informa como os valores serão exibidos ao final, por padrão é dado um enter(\n)
+    print(contador,end=' ') # a função end informa como os valores serão exibidos ao final, por padrão é dado um enter(\n).
