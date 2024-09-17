@@ -1,7 +1,7 @@
 objetos = ('Lápis', 'Borracha', 'Caderno')
 print(objetos[1]) # Irei exibir o item na posição 1, ou seja, segunda posição, uma vez que toda coleção começa na posição 0
 
-print(type(objetos)) # irá mostraro tipo de variável
+print(type(objetos)) # irá mostrar o tipo de variável
 
 print(objetos) # exibindo todos os itens de uma só vez
 
