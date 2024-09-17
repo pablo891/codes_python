@@ -3,7 +3,7 @@ import random
 contador = 5
 
 while contador >= 1:
-    numAleatorio = random.randint (1,101)
+    numAleatorio = random.randint (1,100)
     contador -= 1
     numUser = int(input('Tente adivinhar o número secreto ( 1 a 100): '))
 

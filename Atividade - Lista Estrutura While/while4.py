@@ -1,6 +1,6 @@
 print('Bem-vindo ao lojão do Manoel!')
 
-contador = 1
+contador = 0
 totalCompra = 0
 troco = 0
 pagamento = 0
@@ -20,3 +20,4 @@ while True:
         print(f'Dinheiro: R${pagamento:.2f}\n')
         print(f'Troco: R${troco:.2f}\n')
         break
+    
