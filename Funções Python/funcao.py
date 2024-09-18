@@ -1,19 +1,14 @@
-objetos = ('Lápis', 'Borracha', 'Caderno')
-print(objetos[1]) # Irei exibir o item na posição 1, ou seja, segunda posição, uma vez que toda coleção começa na posição 0
+# Função com retorno
 
-print(type(objetos)) # irá mostrar o tipo de variável
+def somar(num1,num2):
+    resultado = num1 + num2
+    return resultado # devolvendo o valor para quem chamou a função
 
-print(objetos) # exibindo todos os itens de uma só vez
+print(somar(20,6))
 
-print('-' * 50)
-for item in range(0,3):
-    print(objetos[item], end=', ') # exibindo todos os itens da tupla, em forma de lista (range)
+# Função sem retorno
+def multiplicar (valor1, valor2):
+    resultado = valor1 * valor2
+    print(resultado)
 
-#  Exibindo todos os itens da tupla sem a função range
-print(' ')
-print('-' * 50)
-for elementos in objetos:
-    print (elementos) 
-
-# Iremos tentar alterar o conteúdo da tuple
-objetos[0] = 'Caneta'
+multiplicar(6,8)
